@@ -67,7 +67,9 @@ p,li,a{
  .BtnMenu {
      display: none;
  }
-
+ .BtnMenu i{
+    font-size: 25px;
+ }
  .mobileNav {
      padding: 10px;
      position: fixed;
@@ -302,6 +304,7 @@ p,li,a{
 
  aside {
      margin-top: 50px;
+     padding-top: 15px;
      background-color: #bd261b;
  }
 
@@ -336,6 +339,7 @@ p,li,a{
 
  .contenaireEquipe div h6 {
      color: #bd261b;
+     border-left: 50px solid #bd261b;
  }
 
  .contact {
@@ -368,10 +372,12 @@ p,li,a{
     height: 45px;
     outline-color: #bd261b;
     border: none;
+    font-family: "Poppins", serif;
  }
  .contact form div input::-webkit-input-placeholder{
     opacity: 0.3;
     padding-left: 10px;
+    font-family: "Poppins", serif;
  }
  .magtop{
     margin-top: 20px;
@@ -382,10 +388,12 @@ p,li,a{
     height: 150px;
     outline-color: #bd261b;
     border: none;
+    font-family: "Poppins", serif;
  }
  .contact form textarea::-webkit-input-placeholder{
     opacity: 0.3;
     padding-left: 10px;
+    font-family: "Poppins", serif;
  }
  .contact form button{
     margin-top: 20px;
@@ -395,6 +403,12 @@ p,li,a{
     padding: 10px 15px 10px 15px;
     border-radius: 15px;
     cursor: pointer;
+    font-family: "Poppins", serif;
+    transition: 0.5s;
+ }
+ .contact form button:hover{
+    padding: 10px 20px 10px 20px;
+    transition: 0.5s;
  }
 
  /*****************************************************/
@@ -405,6 +419,9 @@ p,li,a{
 
      .contenaireEquipe div {
          flex-basis: 45%;
+     }
+     .contact form{
+        width: 90%;
      }
  }
 
@@ -473,5 +490,8 @@ p,li,a{
 
      .contenaireEquipe div {
          flex-basis: 90%;
+     }
+     .contact form{
+        width: 90%;
      }
  }
