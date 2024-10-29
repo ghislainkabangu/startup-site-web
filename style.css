@@ -1,7 +1,6 @@
  body {
-     background-color: white;
      color: black;
-     background-color: whitesmoke;
+     background-color: #f5f5f5;
      margin: 0 auto;
      padding: auto;
      font-family: Arial, Helvetica, sans-serif;
@@ -239,101 +238,168 @@
      height: 650px;
      object-fit: contain;
  }
-article{
-    margin-top: 20px;
-}
-.Boxarticle{
-    width: 95%;
+
+ article {
+     margin-top: 20px;
+ }
+
+ .Boxarticle {
+     width: 95%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ .Boxarticle div {
+     margin-top: 30px;
+     flex-basis: 45%;
+     border-radius: 10px;
+     padding: 10px;
+ }
+
+ .Boxarticle div span {
+     padding: 12px 15px 12px 15px;
+     position: relative;
+     bottom: 12px;
+ }
+
+ .Boxarticle div a {
+     text-decoration: none;
+ }
+
+ .BoxarticleColor1 {
+     background-color: white;
+ }
+
+ .spanColorWhite {
+     background-color: #bd261b;
+     color: #bd261b;
+ }
+
+ .BoxarticleColor1 a {
+     color: black;
+ }
+
+ .BoxarticleColor2 {
+     background-color: #f7b614;
+     color: white;
+ }
+
+ .spanColorYello {
+     background-color: white;
+     color: white;
+ }
+
+ .BoxarticleColor2 a {
+     color: white;
+ }
+
+ aside {
+     margin-top: 50px;
+     background-color: #bd261b;
+ }
+
+ aside h3 {
+     text-align: center;
+     padding: 15px;
+     color: white;
+ }
+
+ .contenaireEquipe {
+     margin: auto;
+     width: 95%;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding-bottom: 110px;
+ }
+
+ .contenaireEquipe div {
+     flex-basis: 20%;
+     margin-top: 20px;
+     text-align: center;
+     background-color: white;
+ }
+
+ .contenaireEquipe div img {
+     width: 97%;
+     height: 200px;
+     padding-top: 20px;
+     object-fit: cover;
+ }
+
+ .contenaireEquipe div h6 {
+     color: #bd261b;
+ }
+
+ .contact {
+     margin: auto;
+     width: 95%;
+     margin-top: 50px;
+ }
+
+ .contact h4 {
+     font-size: 30px;
+     color: #bd261b;
+ }
+
+ .cont {
+     border-bottom: 5px solid #bd261b;
+ }
+ .contact form{
     margin: auto;
+    width: 1000px;
+ }
+ .contact form p {
+     color: #bd261b;
+ }
+ .contact form div{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-}
-.Boxarticle div{
-    margin-top: 30px;
-    flex-basis: 45%;
-    border-radius: 10px;
-    padding: 10px;
-}
-.Boxarticle div span{
-    padding: 12px 15px 12px 15px;
-    position: relative;
-    bottom: 12px;
-}
-.Boxarticle div a{
-    text-decoration: none;
-}
-.BoxarticleColor1{
-    background-color: white;
-}
-.spanColorWhite{
+ }
+ .contact form div input{
+    flex-basis: 47%;
+    height: 45px;
+    outline-color: #bd261b;
+    border: none;
+ }
+ .contact form div input::-webkit-input-placeholder{
+    opacity: 0.3;
+    padding-left: 10px;
+ }
+ .magtop{
+    margin-top: 20px;
+ }
+ .contact form textarea{
+    margin-top: 20px;
+    width: 99.5%;
+    height: 150px;
+    outline-color: #bd261b;
+    border: none;
+ }
+ .contact form textarea::-webkit-input-placeholder{
+    opacity: 0.3;
+    padding-left: 10px;
+ }
+ .contact form button{
+    margin-top: 20px;
     background-color: #bd261b;
-    color: #bd261b;
-}
-.BoxarticleColor1 a{
-    color: black;
-}
-.BoxarticleColor2{
-    background-color: #f7b614;
+    border: none;
     color: white;
-}
-.spanColorYello{
-    background-color: white;
-    color: white;
-}
-.BoxarticleColor2 a{
-    color: white;
-}
-aside{
-    margin-top: 50px;
-    background-color:#bd261b;
-}
-aside h3{
-    text-align: center;
-    padding: 15px;
-    color: white;
-}
-.contenaireEquipe{
-    margin: auto;
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-bottom: 110px;
-}
-.contenaireEquipe div{
-    flex-basis: 20%;
-    margin-top: 20px;
-    text-align: center;
-    background-color: white;
-}
-.contenaireEquipe div img{
-    width: 97%;
-    padding-top: 20px;
-    object-fit:contain;
-}
-.contenaireEquipe div  h6{
-    color: #bd261b;
-}
-.contact{
-    margin: auto;
-    width: 95%;
-    margin-top: 50px;
-}
-.contact h4{
-    font-size: 30px;
-    color: #bd261b;
-}
-.cont{
-    border-bottom: 5px solid #bd261b;
-}
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+ }
+
  /*****************************************************/
  @media screen and (max-width:1100px) {
      main {
          padding: 30px;
      }
-     .contenaireEquipe div{
-        flex-basis: 45%;
+
+     .contenaireEquipe div {
+         flex-basis: 45%;
      }
  }
 
@@ -387,16 +453,20 @@ aside h3{
      .banniereContenaireBox2 {
          margin-top: 20px;
      }
-     .Boxarticle{
-        justify-content: space-around;
+
+     .Boxarticle {
+         justify-content: space-around;
      }
-     .Boxarticle div{
-        flex-basis: 90%;
-    }
-    .contenaireEquipe{
-        justify-content: space-around;
-    }
-    .contenaireEquipe div{
-        flex-basis: 90%;
-    }
+
+     .Boxarticle div {
+         flex-basis: 90%;
+     }
+
+     .contenaireEquipe {
+         justify-content: space-around;
+     }
+
+     .contenaireEquipe div {
+         flex-basis: 90%;
+     }
  }
