@@ -1,0 +1,402 @@
+ body {
+     background-color: white;
+     color: black;
+     background-color: whitesmoke;
+     margin: 0 auto;
+     padding: auto;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ .headerBox {
+     background-color: #bd261b;
+     padding: 1px;
+ }
+
+ .headerBox1 {
+     margin: auto;
+     width: 95%;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .headerBox1 div h1 {
+     color: white;
+     font-weight: 20;
+     text-align: center;
+ }
+
+ .headerBox1 div h1 span {
+     font-weight: bold;
+
+ }
+
+ .navigation nav ul {
+     list-style-type: none;
+     display: flex;
+     padding-top: 30px;
+ }
+
+ .listeItem {
+     padding-right: 30px;
+ }
+
+ .navigation nav ul li a {
+     color: white;
+     text-decoration: none;
+     transition: 0.5s;
+ }
+
+ .navigation nav ul li a:hover {
+     letter-spacing: 2px;
+     border-bottom: 1px solid white;
+     transition: 0.5s;
+ }
+
+ .nos {
+     border-bottom: 1px solid white;
+ }
+
+ .BtnMenu {
+     display: none;
+ }
+
+ .mobileNav {
+     padding: 10px;
+     position: fixed;
+     width: 350px;
+     height: 100%;
+     left: -370px;
+     background-color: #bd261b;
+     border-top: 1px solid white;
+     transition: 0.5s;
+ }
+
+ .mobileNavNewClasse {
+     left: -0px;
+     transition: 0.5s;
+ }
+
+ .BntClose {
+     float: right;
+     text-decoration: none;
+     font-size: 20px;
+     color: white;
+     cursor: pointer;
+ }
+
+ .BntClose:hover {
+     font-size: 25px;
+ }
+
+ .mobileNav nav ul {
+     list-style-type: none;
+     position: relative;
+     right: 20px;
+     padding-top: 20px;
+ }
+
+ .mobNavItem {
+     padding-top: 40px;
+ }
+
+ .mobileNav nav ul li a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .mobileNav nav ul li a:hover {
+     font-weight: bold;
+ }
+
+ main {
+     width: 90%;
+     margin: auto;
+     margin-top: 50px;
+     border-radius: 10px;
+     padding: 40px;
+     text-align: center;
+     background-image: url("gallerie/homme2.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     color: white;
+
+ }
+
+ main h2 {
+     padding-top: 100px;
+     font-size: 90px;
+ }
+
+ .title {
+     margin: auto;
+     width: 95%;
+     margin-top: 50px;
+     text-align: center;
+ }
+
+ .title h2 {
+     color: #bd261b;
+     font-size: 50px;
+     word-wrap: break-word;
+ }
+
+ section {
+     margin: auto;
+     width: 95%;
+     margin-top: 20px;
+ }
+
+ .boxService {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ .boxService div {
+     flex-basis: 45%;
+     margin-top: 30px;
+     padding: 10px;
+     border-radius: 10px;
+ }
+
+ .boxService div .spanColor {
+     background-color: #bd261b;
+     padding: 12px 15px 12px 15px;
+     color: #bd261b;
+     position: relative;
+     bottom: 12px;
+ }
+
+ .serviceColor {
+     background-color: white;
+ }
+
+ .spanColordiff {
+     background-color: white;
+     color: white;
+     padding: 12px 15px 12px 15px;
+     position: relative;
+     bottom: 12px;
+ }
+
+ .serviceColorRed {
+     background-color: #bd261b;
+     color: white;
+ }
+
+ .banniere {
+     background-color: #bd261b;
+     margin-top: 50px;
+ }
+
+ .banniereContenaire {
+     margin: auto;
+     width: 95%;
+     display: flex;
+     justify-content: space-between;
+     color: white;
+     flex-wrap: wrap;
+ }
+
+ .banniereContenaire div {
+     flex-basis: 45%;
+     box-sizing: content-box;
+ }
+
+ .banniereContenaire div h3 {
+     color: white;
+     font-size: 30px;
+ }
+
+ .good {
+     font-size: 70px;
+ }
+
+ .banniereContenaire div h5 {
+     font-size: 20px;
+ }
+
+ .banniereContenaire div ul li {
+     padding-top: 10px;
+ }
+
+ .banniereContenaire div a {
+     color: white;
+ }
+
+ .banniereContenaireBox2 {
+     text-align: center;
+ }
+
+ .banniereContenaireBox2 img {
+     width: 100%;
+     height: 650px;
+     object-fit: contain;
+ }
+article{
+    margin-top: 20px;
+}
+.Boxarticle{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Boxarticle div{
+    margin-top: 30px;
+    flex-basis: 45%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.Boxarticle div span{
+    padding: 12px 15px 12px 15px;
+    position: relative;
+    bottom: 12px;
+}
+.Boxarticle div a{
+    text-decoration: none;
+}
+.BoxarticleColor1{
+    background-color: white;
+}
+.spanColorWhite{
+    background-color: #bd261b;
+    color: #bd261b;
+}
+.BoxarticleColor1 a{
+    color: black;
+}
+.BoxarticleColor2{
+    background-color: #f7b614;
+    color: white;
+}
+.spanColorYello{
+    background-color: white;
+    color: white;
+}
+.BoxarticleColor2 a{
+    color: white;
+}
+aside{
+    margin-top: 50px;
+    background-color:#bd261b;
+}
+aside h3{
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.contenaireEquipe{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 110px;
+}
+.contenaireEquipe div{
+    flex-basis: 20%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+}
+.contenaireEquipe div img{
+    width: 97%;
+    padding-top: 20px;
+    object-fit:contain;
+}
+.contenaireEquipe div  h6{
+    color: #bd261b;
+}
+.contact{
+    margin: auto;
+    width: 95%;
+    margin-top: 50px;
+}
+.contact h4{
+    font-size: 30px;
+    color: #bd261b;
+}
+.cont{
+    border-bottom: 5px solid #bd261b;
+}
+ /*****************************************************/
+ @media screen and (max-width:1100px) {
+     main {
+         padding: 30px;
+     }
+     .contenaireEquipe div{
+        flex-basis: 45%;
+     }
+ }
+
+ @media screen and (max-width:800px) {
+     .navigation {
+         display: none;
+     }
+
+     .BtnMenu {
+         padding-top: 40px;
+         color: white;
+         cursor: pointer;
+         display: block;
+     }
+
+     main {
+         padding: 10px;
+     }
+
+     main h2 {
+         padding-top: 50px;
+         font-size: 60px;
+     }
+
+     .title h2 {
+         color: #bd261b;
+         font-size: 30px;
+         word-wrap: break-word;
+     }
+
+     .boxService {
+         justify-content: space-around;
+     }
+
+     .boxService div {
+         flex-basis: 90%;
+     }
+
+     .banniereContenaire {
+         justify-content: space-around;
+     }
+
+     .banniereContenaire div {
+         flex-basis: 90%;
+     }
+
+     .banniereContenaireBox2 img {
+         height: 400px;
+     }
+
+     .banniereContenaireBox2 {
+         margin-top: 20px;
+     }
+     .Boxarticle{
+        justify-content: space-around;
+     }
+     .Boxarticle div{
+        flex-basis: 90%;
+    }
+    .contenaireEquipe{
+        justify-content: space-around;
+    }
+    .contenaireEquipe div{
+        flex-basis: 90%;
+    }
+ }
