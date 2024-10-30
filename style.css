@@ -444,13 +444,21 @@ footer{
 .underline{
     border-bottom: 3px solid white;
 }
+.listReseau{
+    position: relative;
+    right: 50px;
+}
  .listReseau li{
     display: inline-block;
     list-style-type: none;
+    padding-left: 20px;
 }
 .listReseau li a{
     text-decoration: none;
     color: white;
+}
+.listReseau li a i{
+    font-size: 15px;
 }
 .copy{
     font-size: small;
